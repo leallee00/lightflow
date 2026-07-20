@@ -2,11 +2,15 @@
 
 在新的 AI 编程项目开始前，先用这个模板建立基础。
 
-## 1. 克隆 LightFlow
+## 1. 安装 LightFlow
 
 ```bash
-git clone https://github.com/[your-name]/lightflow.git .lightflow
-cp .lightflow/CLAUDE.md ./
+# 一行搞定
+curl -fsSL https://raw.githubusercontent.com/leallee00/lightflow/main/install.sh | bash
+
+# 或者手动
+# git clone https://github.com/leallee00/lightflow.git .lightflow
+# cp .lightflow/CLAUDE.md ./
 ```
 
 ## 2. 编辑 CLAUDE.md
